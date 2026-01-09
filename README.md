@@ -5,6 +5,21 @@ This project is a frontend application for managing blog content.
 
 To set up the Blog CMS Frontend, follow these steps:
 
+## 📸 Screenshots
+
+### 🏠 Blog Listing Page
+![Dashboard](screenshots\Dashboard.png)
+
+![Blog Listing](screenshots\blog_Listing.png)
+
+### 📖 Blog Detail Page
+![Blog Detail](screenshots\blog_detail.png)
+
+### 👤 Author Page
+![Author Page](screenshots\Author_Page.png)
+
+
+
 1. **Clone the repository**:
     ```bash
     git clone https://github.com/yourusername/blog-cms-frontend.git
