@@ -23,7 +23,7 @@ export default function Navbar() {
     }`;
 
   return (
-    <nav className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white sticky top-0 z-50">
+    <nav className="bg-gradient-to-r from-red-600 to-violet-600 text-white sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
         <Link to="/blogs" className="text-xl font-bold">
           Blog CMS
