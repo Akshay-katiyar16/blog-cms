@@ -4,6 +4,7 @@ import BlogPage from "./pages/blog";
 import BlogDetail from "./pages/BlogDetail";
 import AuthorDetail from "./pages/AuthorDetail";
 import PublishBlog from "./pages/PublishBlog";
+import NotFound from "./pages/NotFound";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         <Route path="/blogs/:slug" element={<BlogDetail />} />
         <Route path="/authors/:id" element={<AuthorDetail />} />
         <Route path="/publish" element={<PublishBlog />} />
+        <Route path="*" element={<NotFound/>}></Route>
       </Routes>
     </BrowserRouter>
   );
