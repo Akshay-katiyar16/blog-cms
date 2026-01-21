@@ -45,36 +45,40 @@ export default function PublishBlog() {
         <div className="mb-4">
           <label className="block text-sm font-medium mb-1">
             Blog Title *
-          </label>
-          <input
+            <input
             value={title}
+            name="title"
             onChange={e => setTitle(e.target.value)}
             className="w-full p-3 border rounded"
             placeholder="Enter blog title"
           />
+          </label>
+          
         </div>
 
         {/* CONTENT */}
         <div className="mb-4">
           <label className="block text-sm font-medium mb-1">
             Blog Content *
-          </label>
-          <textarea
+            <textarea
             value={content}
+            name="content"
             onChange={e => setContent(e.target.value)}
             rows={5}
             className="w-full p-3 border rounded"
             placeholder="Write your blog content..."
           />
+          </label>
+          
         </div>
 
         {/* AUTHOR */}
         <div className="mb-4">
           <label className="block text-sm font-medium mb-1">
             Author *
-          </label>
-          <select
+            <select
             value={authorId}
+            name="authorId"
             onChange={e => setAuthorId(e.target.value)}
             className="w-full p-3 border rounded"
           >
@@ -85,19 +89,23 @@ export default function PublishBlog() {
               </option>
             ))}
           </select>
+          </label>
+          
         </div>
 
         {/* TAG INPUT */}
         <div className="mb-6">
           <label className="block text-sm font-medium mb-1">
             Tags (comma separated)
-          </label>
-          <input
+            <input
             value={tags}
+            name="tags"
             onChange={e => setTags(e.target.value)}
             className="w-full p-3 border rounded"
             placeholder="react, frontend, ui"
           />
+          </label>
+          
         </div>
 
         {/* BUTTONS */}

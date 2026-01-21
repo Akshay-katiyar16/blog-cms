@@ -12,6 +12,7 @@ export default function TagFilter({
   return (
     <select
       value={selectedTag}
+      name="Tag Filter"
       onChange={(e) => onChange(e.target.value)}
       className="p-3 border rounded-lg w-full md:w-48 focus:outline-none focus:ring-2 focus:ring-indigo-500"
     >

@@ -47,6 +47,7 @@ const CreateBlog = () => {
 
         <input
           placeholder="Blog Title"
+          name="Blog Title"
           value={title}
           onChange={(e) => setTitle(e.target.value)}
           style={inputStyle}

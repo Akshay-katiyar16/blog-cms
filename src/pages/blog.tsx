@@ -51,6 +51,7 @@ export default function BlogPage() {
           <div className="flex flex-col md:flex-row gap-4 mb-10">
             <input
               type="text"
+              name="text"
               placeholder="Search by title..."
               value={search}
               onChange={(e) => setSearch(e.target.value)}
