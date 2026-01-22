@@ -25,14 +25,12 @@ export default function Navbar() {
   return (
     <nav className="bg-gradient-to-r from-red-600 to-violet-600 text-white sticky top-0 z-50">
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center">
-        <Link to="/blogs" className="text-xl font-bold">
+        <h2 className="text-xl font-bold">
           Blog CMS
-        </Link>
+        </h2>
 
         <div className="flex items-center gap-6">
-          <a href="#home" className={linkClass("home")}>
-            Home
-          </a>
+         <Link to="/">Home</Link>
           <a href="#blogs" className={linkClass("blogs")}>
             Blogs
           </a>

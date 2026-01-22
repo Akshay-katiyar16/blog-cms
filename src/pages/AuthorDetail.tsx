@@ -46,7 +46,7 @@ export default function AuthorDetail() {
             to="/blogs"
             className="text-indigo-600 font-medium hover:underline"
           >
-            ← Back to Blogs
+            ← Back to Home
           </Link>
         </div>
 
