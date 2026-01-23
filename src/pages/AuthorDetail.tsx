@@ -20,6 +20,13 @@ export default function AuthorDetail() {
     <div className="bg-gray-100 min-h-screen py-12">
       <div className="max-w-6xl mx-auto px-6">
 
+         <Link
+            to="/AuthorsProfile"
+            className="bg-purple-600 text-white px-4 py-2 rounded-full font-medium mb-6 inline-block hover:bg-sky-600 transition"
+          >
+            View All Authors →
+          </Link>
+
         {/* AUTHOR PROFILE CARD */}
         <div className="bg-white rounded-xl shadow p-8 flex items-center gap-6 mb-10">
           <div className="w-20 h-20 rounded-full bg-gradient-to-br from-indigo-600 to-purple-600 text-white flex items-center justify-center text-3xl font-bold">
@@ -44,7 +51,7 @@ export default function AuthorDetail() {
 
           <Link
             to="/blogs"
-            className="text-indigo-600 font-medium hover:underline"
+            className="bg-purple-600 text-white px-4 py-2 rounded-full font-medium mb-6 inline-block hover:bg-sky-600 transition"
           >
             ← Back to Home
           </Link>
