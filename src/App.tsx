@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import BlogPage from "./pages/blog";
+import BlogPage from "./pages/blogs";
 import BlogDetail from "./pages/BlogDetail";
 import AuthorDetail from "./pages/AuthorDetail";
 import PublishBlog from "./pages/PublishBlog";
