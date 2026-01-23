@@ -96,15 +96,15 @@ To set up the Blog CMS Frontend, follow these steps:
 ## 📸 Screenshots
 
 ### 🏠 Blog Listing Page
-![Dashboard](screenshots\Dashboard.png)
+![Dashboard](./screenshots\Dashboard.png)
 
-![Blog Listing](screenshots\blog_Listing.png)
+![Blog Listing](./screenshots\blog_Listing.png)
 
 ### 📖 Blog Detail Page
-![Blog Detail](screenshots\blog_detail.png)
+![Blog Detail](./screenshots\blog_detail.png)
 
 ### 👤 Author Page
-![Author Page](screenshots\Author_Page.png)
+![Author Page](./screenshots\Author_Page.png)
 
 
 
