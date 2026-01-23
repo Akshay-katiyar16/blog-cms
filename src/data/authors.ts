@@ -8,24 +8,34 @@ export const authors: Author[] = [
   },
   {
     id: "2",
-    name: "John Doe",
-    bio: "Technical blogger focusing on JavaScript, performance, and best practices.",
+    name: "Anuj Pal",
+    bio: "DevOps engineer and blogger sharing insights on cloud computing and CI/CD.",
   },
   
   {
     id: "3",
-    name: "Sarah Johnson",
+    name: "Abhijeet Kumar Pandey",
     bio: "UI/UX designer and frontend engineer who loves clean interfaces.",
   },
   {
     id: "4",
-    name: "Rahul Sharma",
+    name: "Swapnil Pandey",
     bio: "Full-stack developer writing about React, Node.js, and system design.",
   },
   {
     id: "5",
-    name: "Emily Watson",
+    name: "Anshika Ojha",
     bio: "Content creator and tech writer passionate about accessibility and UX.",
+  },
+  {
+    id: "6",
+    name: "Tanya Maheshwari",
+    bio: "Technical blogger focusing on JavaScript, performance, and best practices.",
+  },
+  {
+    id: "7",
+    name: "Shivam Singh",
+    bio: "meticulous coder and blogger sharing insights on frontend development.",
   },
 ];
 
